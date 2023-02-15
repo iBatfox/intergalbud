@@ -1,0 +1,62 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://webtracking-v01.bpmonline.com/JS/track-cookies.js"></script>
+<script src="https://webtracking-v01.bpmonline.com/JS/create-object.js"></script>
+<script>
+
+/**
+* Замініть вираз в лапках "css-selector" в коді нижче значенням селектора елемента на Вашій лендінговій сторінці.
+* Ви можете використати #id або будь-який інший CSS селектор, який буде точно визначати поле вводу на Вашій лендінговій сторінці.
+* Приклад: "Email": "#MyEmailField".
+* Если Ваша лендінгова сторінка не містить одного або декількох полів із наведених нижче – залиште строку без змін або видаліть повністю.
+*/
+var config = {
+    fields: {
+        "Name": "FIELD_NAME_ID", // Ім'я відвідувача, який заповнив форму
+        "Email": "FIELD_EMAIL_ID", // Email відвідувача
+        "MobilePhone": "FIELD_PHONE_ID", // Телефон відвідувача
+        "M4UManagerComment": "FIELD_MESSAGE_ID", // Коментар менеджера
+        "M4UutmTerm": "css-selector", // utmTerm
+        "M4UutmSource": "css-selector", // utmSource
+        "M4UutmMedium": "css-selector", // utmMedium
+        "M4UutmContent": "css-selector", // utmContent
+        "M4UutmCampaign": "css-selector", // utmCampaign
+        "M4USecondUtmSource": "css-selector", // utm_source
+        "M4USecondUtmMedium": "css-selector", // utm_medium
+        "M4USecondUtmCampaign": "css-selector", // utm_campaign
+        "M4USecondUtmTerm": "css-selector", // utm_term
+        "M4USecondUtmContent": "css-selector", // utm_content
+        "M4UUtmReferrer": "css-selector", // utm_referrer
+        "M4UYmUid": "css-selector", // _ym_uid
+        "M4UYmCounter": "css-selector", // _ym_counter
+    },
+    contactFields: {
+        "FullName": "css-selector", // Name of a contact
+        "Phone": "css-selector", // Contact's mobile phone
+        "Email": "css-selector" // Contact's email
+    },
+    contactFields: {
+        "FullName": "css-selector", // Name of a contact
+        "Phone": "css-selector", // Contact's mobile phone
+        "Email": "css-selector" // Contact's email
+            },
+    customFields: {},
+    landingId: "e2199ba0-0a05-4f04-874d-3a9508e613e6",
+    serviceUrl: "https://dev-intergalbud.creatio.com/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
+    redirectUrl: ""
+};
+/**
+* Функція нижче створює об'єкт із введених даних.
+* Прив'яжіть виклик цієї функції до події "onSubmit" форми або будь-якому іншому елементу події.
+* Приклад: <form class="mainForm" name="landingForm" onSubmit="createObject(); return false">
+*/
+function createObject() {
+    landing.createObjectFromLanding(config);
+}
+/**
+* Функція нижче ініціює лендинг з параметрів URL.
+*/
+function initLanding() {
+    landing.initLanding(config);
+}
+jQuery(document).ready(initLanding);
+</script>
