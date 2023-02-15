@@ -51,4 +51,5 @@ function createObject() {
 function initLanding() {
     landing.initLanding(config);
 }
-jQuery(doc
+jQuery(document).ready(initLanding);
+</script>
