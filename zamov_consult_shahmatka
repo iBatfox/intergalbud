@@ -38,9 +38,9 @@ var config = {
         "FullName": "css-selector", // Name of a contact
         "Phone": "css-selector", // Contact's mobile phone
         "Email": "css-selector" // Contact's email
-    },
+        },
     customFields: {},
-    landingId: "89d260fd-2b3d-4e07-be1a-825675502fe9",
+    landingId: "87c656bb-5427-4c69-9ebe-7b60a1641ed0",
     serviceUrl: "https://dev-intergalbud.creatio.com/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
     redirectUrl: ""
 };
