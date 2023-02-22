@@ -32,11 +32,6 @@ var config = {
         "FullName": "css-selector", // Name of a contact
         "Phone": "css-selector", // Contact's mobile phone
         "Email": "css-selector" // Contact's email
-    },
-    contactFields: {
-        "FullName": "css-selector", // Name of a contact
-        "Phone": "css-selector", // Contact's mobile phone
-        "Email": "css-selector" // Contact's email
            },
     customFields: {},
     landingId: "f1e7773a-c27b-4080-be47-2512499cd302",
