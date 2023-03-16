@@ -14,6 +14,11 @@ var config = {
         "Name": "FIELD_NAME_ID", // Ім'я відвідувача, який заповнив форму
         "MobilePhone": "FIELD_PHONE_ID", // Телефон відвідувача
         "M4UManagerComment": "css-selector", // Коментар менеджера
+        "M4UgoogleClientId": "css-selector", // googleClientId
+        "M4UtrunkSrcId": "css-selector", // trunkSrcId
+        "M4Ureferer": "css-selector", // referer
+        "M4Ugclid": "css-selector", // gclid
+        "M4UclientIp": "css-selector", // clientIp
         "M4UutmTerm": "css-selector", // utmTerm
         "M4UutmSource": "css-selector", // utmSource
         "M4UutmMedium": "css-selector", // utmMedium
