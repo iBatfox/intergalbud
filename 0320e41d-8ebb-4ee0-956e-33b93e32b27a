@@ -13,36 +13,12 @@ var config = {
     fields: {
         "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
         "Email": "css-selector", // Email відвідувача
-        "Zip": "css-selector", // Поштовий індекс відвідувача
         "MobilePhone": "css-selector", // Телефон відвідувача
-        "Company": "css-selector", // Назва компании
-        "Industry": "css-selector", // Галузь компании
-        "FullJobTitle": "css-selector", // Посада відвідувача
-        "UseEmail": "css-selector", // Логічне значення «так» - згода відвідувача отримувати email розсилки
-        "City": "css-selector", // Город
-        "Country": "css-selector", // Страна
-        "Commentary": "css-selector", // Примітка
-        "M4UUsrLeadFirstName": "css-selector", // Ім`я
-        "M4UBuildingProjectName": "css-selector", // Проект
-        "M4ULeadPropertyType": "css-selector", // Тип приміщення
-        "M4UMarketSource": "css-selector", // Маркетингове Джерело
         "M4UutmTerm": "css-selector", // utmTerm
         "M4UutmSource": "css-selector", // utmSource
         "M4UutmMedium": "css-selector", // utmMedium
         "M4UutmContent": "css-selector", // utmContent
         "M4UutmCampaign": "css-selector", // utmCampaign
-        "M4UUTMZ": "css-selector", // UTM-Z
-        "M4ULeadSiteProjectName": "css-selector", // Проект (Сайт)
-        "M4UTechSource": "css-selector", // Техничне джерело
-        "M4UREPurchasePurpose": "css-selector", // Мета купівлі нерухомості
-        "M4UleadRoomsNumber": "css-selector", // Кількість кімнат
-        "M4Uinterestedrepair": "css-selector", // Цікавить ремонт
-        "M4UEstatePaymentType": "css-selector", // Тип оплати нерухомості (select)
-        "M4ULeadMeetingDateTime": "css-selector", // _Дата і час зустрічі
-        "M4UShowroomDate": "css-selector", // Дата шоу-рум
-        "M4UReservation": "css-selector", // Бронь
-        "M4URefusalReason": "css-selector", // Причина отказа АМО
-        "M4ULeadProjectName": "css-selector", // Назва проекту ЖК
         "M4UgoogleClientId": "css-selector", // googleClientId
         "M4UtrunkSrcId": "css-selector", // trunkSrcId
         "M4Ureferer": "css-selector", // referer
