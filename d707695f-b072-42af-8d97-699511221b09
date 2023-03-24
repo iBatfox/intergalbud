@@ -12,17 +12,7 @@
 var config = {
     fields: {
         "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
-        "Email": "css-selector", // Email відвідувача
-        "Zip": "css-selector", // Поштовий індекс відвідувача
         "MobilePhone": "css-selector", // Телефон відвідувача
-        "Company": "css-selector", // Назва компании
-        "Industry": "css-selector", // Галузь компании
-        "FullJobTitle": "css-selector", // Посада відвідувача
-        "UseEmail": "css-selector", // Логічне значення «так» - згода відвідувача отримувати email розсилки
-        "City": "css-selector", // Город
-        "Country": "css-selector", // Страна
-        "Commentary": "css-selector", // Примітка
-        "M4UUsrLeadFirstName": "css-selector", // Ім`я
         "M4UBuildingProjectName": "css-selector", // Проект
         "M4ULeadPropertyType": "css-selector", // Тип приміщення
         "M4UMarketSource": "css-selector", // Маркетингове Джерело
@@ -31,39 +21,15 @@ var config = {
         "M4UutmMedium": "css-selector", // utmMedium
         "M4UutmContent": "css-selector", // utmContent
         "M4UutmCampaign": "css-selector", // utmCampaign
-        "M4UUTMZ": "css-selector", // UTM-Z
-        "M4ULeadSiteProjectName": "css-selector", // Проект (Сайт)
-        "M4UTechSource": "css-selector", // Техничне джерело
-        "M4UREPurchasePurpose": "css-selector", // Мета купівлі нерухомості
-        "M4UleadRoomsNumber": "css-selector", // Кількість кімнат
-        "M4Uinterestedrepair": "css-selector", // Цікавить ремонт
-        "M4UEstatePaymentType": "css-selector", // Тип оплати нерухомості (select)
-        "M4ULeadMeetingDateTime": "css-selector", // _Дата і час зустрічі
-        "M4UShowroomDate": "css-selector", // Дата шоу-рум
-        "M4UReservation": "css-selector", // Бронь
-        "M4URefusalReason": "css-selector", // Причина отказа АМО
-        "M4ULeadProjectName": "css-selector", // Назва проекту ЖК
         "M4UgoogleClientId": "css-selector", // googleClientId
-        "M4UtrunkSrcId": "css-selector", // trunkSrcId
-        "M4Ureferer": "css-selector", // referer
-        "M4UHowGotSO": "css-selector", // Як потрапив у ВП
         "M4Ugclid": "css-selector", // gclid
         "M4UclientIp": "css-selector", // clientIp
-        "M4UCallParentUuid": "css-selector", // callParentUuid
-        "M4UApplicationPage": "css-selector", // Сторінка звернення
-        "M4UForm": "css-selector", // Форма
         "M4Uyclid": "css-selector", // yclid
-        "M4USourceOfInformation": "css-selector", // Як дізнались про нас
-        "M4Uroistat": "css-selector", // roistat
         "M4USecondUtmSource": "css-selector", // utm_source
         "M4USecondUtmMedium": "css-selector", // utm_medium
         "M4USecondUtmCampaign": "css-selector", // utm_campaign
         "M4USecondUtmTerm": "css-selector", // utm_term
         "M4USecondUtmContent": "css-selector", // utm_content
-        "M4UUtmReferrer": "css-selector", // utm_referrer
-        "M4UYmUid": "css-selector", // _ym_uid
-        "M4UYmCounter": "css-selector", // _ym_counter
-        "M4USecondRoistat": "css-selector", // roistat (2)
         "M4Ureferrer": "css-selector", // referrer
         "M4UOpenstatService": "css-selector", // openstat_service
         "M4UOpenstatCampaign": "css-selector", // openstat_campaign
