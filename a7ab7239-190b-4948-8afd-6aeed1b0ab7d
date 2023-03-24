@@ -162,7 +162,7 @@ var config = {
         "Email": "css-selector" // Contact's email
     },
     customFields: {},
-    landingId: "1f8a1c00-e913-4494-9826-cbced47e4d0c",
+    landingId: "a7ab7239-190b-4948-8afd-6aeed1b0ab7d",
     serviceUrl: "https://dev-intergalbud.creatio.com/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
     redirectUrl: ""
 };
