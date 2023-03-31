@@ -13,6 +13,7 @@ var config = {
     fields: {
         "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
         "MobilePhone": "css-selector", // Телефон відвідувача
+        "Commentary": "css-selector", // Примітка
         "M4UutmTerm": "css-selector", // utmTerm
         "M4UutmSource": "css-selector", // utmSource
         "M4UutmMedium": "css-selector", // utmMedium
