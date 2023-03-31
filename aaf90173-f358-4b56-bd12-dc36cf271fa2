@@ -12,149 +12,22 @@
 var config = {
     fields: {
         "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
-        "Email": "css-selector", // Email відвідувача
-        "Zip": "css-selector", // Поштовий індекс відвідувача
         "MobilePhone": "css-selector", // Телефон відвідувача
-        "Company": "css-selector", // Назва компании
-        "Industry": "css-selector", // Галузь компании
-        "FullJobTitle": "css-selector", // Посада відвідувача
-        "UseEmail": "css-selector", // Логічне значення «так» - згода відвідувача отримувати email розсилки
-        "City": "css-selector", // Город
-        "Country": "css-selector", // Страна
         "Commentary": "css-selector", // Примітка
-        "M4UUsrLeadFirstName": "css-selector", // Ім`я
-        "M4UBuildingProjectName": "css-selector", // Проект
-        "M4ULeadPropertyType": "css-selector", // Тип приміщення
-        "M4UMarketSource": "css-selector", // Маркетингове Джерело
+        "Email": "css-selector", // Email відвідувача
         "M4UutmTerm": "css-selector", // utmTerm
         "M4UutmSource": "css-selector", // utmSource
         "M4UutmMedium": "css-selector", // utmMedium
         "M4UutmContent": "css-selector", // utmContent
         "M4UutmCampaign": "css-selector", // utmCampaign
-        "M4UUTMZ": "css-selector", // UTM-Z
-        "M4ULeadSiteProjectName": "css-selector", // Проект (Сайт)
-        "M4UTechSource": "css-selector", // Техничне джерело
-        "M4UREPurchasePurpose": "css-selector", // Мета купівлі нерухомості
-        "M4UleadRoomsNumber": "css-selector", // Кількість кімнат
-        "M4Uinterestedrepair": "css-selector", // Цікавить ремонт
-        "M4UEstatePaymentType": "css-selector", // Тип оплати нерухомості (select)
-        "M4ULeadMeetingDateTime": "css-selector", // _Дата і час зустрічі
-        "M4UShowroomDate": "css-selector", // Дата шоу-рум
-        "M4UReservation": "css-selector", // Бронь
-        "M4URefusalReason": "css-selector", // Причина отказа АМО
-        "M4ULeadProjectName": "css-selector", // Назва проекту ЖК
         "M4UgoogleClientId": "css-selector", // googleClientId
         "M4UtrunkSrcId": "css-selector", // trunkSrcId
-        "M4Ureferer": "css-selector", // referer
-        "M4UHowGotSO": "css-selector", // Як потрапив у ВП
         "M4Ugclid": "css-selector", // gclid
-        "M4UclientIp": "css-selector", // clientIp
-        "M4UCallParentUuid": "css-selector", // callParentUuid
-        "M4UApplicationPage": "css-selector", // Сторінка звернення
-        "M4UForm": "css-selector", // Форма
         "M4Uyclid": "css-selector", // yclid
-        "M4USourceOfInformation": "css-selector", // Як дізнались про нас
-        "M4Uroistat": "css-selector", // roistat
-        "M4USecondUtmSource": "css-selector", // utm_source
-        "M4USecondUtmMedium": "css-selector", // utm_medium
-        "M4USecondUtmCampaign": "css-selector", // utm_campaign
-        "M4USecondUtmTerm": "css-selector", // utm_term
-        "M4USecondUtmContent": "css-selector", // utm_content
-        "M4UUtmReferrer": "css-selector", // utm_referrer
         "M4UYmUid": "css-selector", // _ym_uid
-        "M4UYmCounter": "css-selector", // _ym_counter
-        "M4USecondRoistat": "css-selector", // roistat (2)
-        "M4Ureferrer": "css-selector", // referrer
-        "M4UOpenstatService": "css-selector", // openstat_service
-        "M4UOpenstatCampaign": "css-selector", // openstat_campaign
-        "M4UOpenstatAd": "css-selector", // openstat_ad
-        "M4UOpenstatSource": "css-selector", // openstat_source
-        "M4Ufrom": "css-selector", // from
-        "M4Ugclientid": "css-selector", // gclientid
-        "M4USecondGclid": "css-selector", // gclid (2)
-        "M4USecondYclid": "css-selector", // yclid (2)
-        "M4Ufbclid": "css-selector", // fbclid
-        "M4UJointDeal": "css-selector", // Спільна Угода
-        "M4UEstatePaymentTypeText": "css-selector", // Тип оплати нерухомості
-        "M4UManagerComment": "css-selector", // Коментар менеджера
-        "M4ULeadWhenPlanToMakeDecision": "css-selector", // Коли плануєте прийняти рішення
-        "M4UOriginalLead": "css-selector", // Оригінальний лід
-        "M4ULeadREProjectNameInDB": "css-selector", // Об'єкт в шахматці
-        "M4ULeadREPhaseNumberInDB": "css-selector", // Черга в шахматці
-        "M4ULeadREBuildingInDB": "css-selector", // Дім в шахматці
-        "M4ULeadRESectionInDB": "css-selector", // Секція в шахматці
-        "M4ULeadREPropertyUnitTypeInDB": "css-selector", // Тип приміщення в шахматці
-        "M4ULeadREFloorNumberInDB": "css-selector", // Поверх в шахматці
-        "M4ULeadREPropertyUnitNameInDB": "css-selector", // Номер приміщення в шахматці
-        "M4ULeadREPropertyUnitLayoutNameInDB": "css-selector", // Назва планування в шахматці
-        "M4ULeadREPropertyUnitNumberOfRoomsInDB": "css-selector", // Кількість кімнат в шахматці
-        "M4ULeadREPropertyUnitTotalArea": "css-selector", // Загальна площа в шахматці, м2
-        "M4ULeadREPropertyM2PriceInDB": "css-selector", // Вартість м2 в шахматці
-        "M4ULeadREPropertyTotalCostInDB": "css-selector", // Загальна вартість в шахматці
-        "M4ULeadREPropertyPriceDiscountRateInDB": "css-selector", // Знижка в шахматці, %
-        "M4UDealREPropertyDiscountTotalCostInDB": "css-selector", // Загальна вартість зі знижкою в шахматці
-        "M4ULeadREPropertyDiscountM2PriceInDB": "css-selector", // Вартість м2 з урахуванням знижки в шахматці
-        "M4ULeadCommentsFromCheckMate": "css-selector", // Коментар з шахматки
-        "M4ULeadREPropertyUnitAvailabilityStatusInDB": "css-selector", // Статус приміщення в шахматці
-        "M4ULeadNameInExtDB": "css-selector", // Назва Ліда в іншій БД
-        "M4ULeadProcessingTimeExpResponsibleEmployee": "css-selector", // Відповідальний за заліт
-        "M4ULeadInitialProcessingTimeExpiredResponsible": "css-selector", // Відповідальний за заліт в обробці
-        "M4ULeadProcessingTimeExpResponsible": "css-selector", // Відповідальний за заліт недодзвін
-        "M4ULeadStatusDatetimeNotProcessed": "css-selector", // Дата/час Не оброблений
-        "M4ULeadStatusDatetimeResponsibleAppointed": "css-selector", // Дата/час Призначен Відповідальний
-        "M4ULeadStatusDatetimeOverdue": "css-selector", // Дата/час Протермінован
-        "M4ULeadStatusDatetimeInProcessing": "css-selector", // Дата/час В Обробці
-        "M4ULeadStatusDatetimeCantCommunicate": "css-selector", // Дата/час Не вдалось зв'язатись
-        "M4ULeadStatusDatetimeTerminateProcessing": "css-selector", // Дата/час Завершити Обробку
-        "M4ULeadStatusDatetimeQuolified": "css-selector", // Дата/время Якісний лід
-        "M4ULeadStatusDatetimeDouble": "css-selector", // Дата/час ДУБЛЬ
-        "M4ULeadStatusDatetimeBadData": "css-selector", // Дата/час Неактуальні дані
-        "M4ULeadStatusDatetimeNotQuolified": "css-selector", // Дата/час Неякісний лід
-        "M4ULeadStatusDatetimeMisconnection": "css-selector", // Дата/час НЕДОЗВОН
-        "M4ULeadProcessingTimeExpired2": "css-selector", // Заліт
-        "M4ULeadMarketingExpensesType": "css-selector", // Витрати на маркетинг
-        "M4UPhoneComment": "css-selector", // Коментар до телефону
-        "M4ULeadIDinExtDB": "css-selector", // LeadIDinExtDB
-        "M4ULeadIDinExtDBLink": "css-selector", // LeadIDinExtDBLink
-        "M4UResponsibleIDInOtherDB": "css-selector", // ResponsibleID в іншій БД
-        "M4UTags": "css-selector", // Tags
-        "M4UModifiedbyIDInOtherDB": "css-selector", // Modified byID в іншій БД
-        "M4UResponsibleNameInOtherDB": "css-selector", // Responsible name в іншій БД
-        "M4UModifiedbyNameInOtherDB": "css-selector", // Modified by name в іншій БД
-        "M4UCreatedIDInOtherDB": "css-selector", // Created Id В іншій БД
-        "M4UBudgetString": "css-selector", // Бюджет (Текст)
-        "M4UOpportunitySum": "css-selector", // Сума (Продаж)
-        "M4UStageIDInOtherDB": "css-selector", // StageIdInOtherDB
-        "M4UStageNameInOtherDB": "css-selector", // StageNameInOtherDB
-        "M4UStringLeadProjectName": "css-selector", // Назва проекту ЖК (текст)
-        "M4URealEstateCondition": "css-selector", // Стан приміщення (Ремонт)
-        "M4URealEstateObjectID": "css-selector", // ID Приіщення в шахматці
-        "M4UConstuctionStage": "css-selector", // Етап будівництва
-        "M4UDecorationText": "css-selector", // Оздоблення текст
-        "M4UDealStageFirst": "css-selector", // Дата/Час Угоди без уваги
-        "M4UDateStageFirstCall": "css-selector", // Дата/Час Перший дзвінок
-        "M4UDateStageRepeatedCalls": "css-selector", // Дата/Час Повторні дзвінки
-        "M4UDateStageFirtMeeting": "css-selector", // Дата/Час Призначено зустріч
-        "M4UDateStageMeetingConducted": "css-selector", // Дата/Час Зустріч проведено
-        "M4UDateStageFirstCallAfterMeeting": "css-selector", // Дата/Час Дзвінок після першої зустрічі
-        "M4UDateStageRepeatedMeeting": "css-selector", // Дата/Час Повторна зустріч
-        "M4UDateStageBooking": "css-selector", // Дата/Час Бронювання
-        "M4UDateStageBookingOverdue": "css-selector", // Дата/Час Бронювання протерміновано
-        "M4UDateStageOrder": "css-selector", // Дата/Час Замовлення
-        "M4UDateStageOrderExpired": "css-selector", // Дата/Час Замовлення протерміновано
-        "M4UDateStageDealSuccesful": "css-selector", // Дата/Час Угода Успішна
-        "M4UDateStageDealLost": "css-selector", // Дата/Час Угода програна
-        "M4UDateStageDealTerminated": "css-selector", // Дата/Час Угода розірвана
-        "M4UDateStageIncomingleadsAMO": "css-selector", // Дата/час Incoming leads (AMO)
-        "M4UDateStageClosedUnrealizedAMO": "css-selector", // Дата/Час Закрито і нерелізовано (AMO)
-        "M4UDateStageApplicationAMO": "css-selector", // Дата/Час Заявка (AMO)
-        "M4UDateStageCommunicationCompletedAMO": "css-selector", // Дата/Час Комунікація проведена (AMO)
-        "M4UDateStageAcceptedAMO": "css-selector", // Дата/Час Прийнята в роботу (AMO)
-        "M4UDateStageShowroomAMO": "css-selector", // Дата/Час Шоу-рум (AMO)
-        "M4UDateStageNewAMO": "css-selector", // Дата/Час Нова заявка (AMO)
-        "M4UReasonClosing": "css-selector", // Причина закриття (Лід/Угода)
-        "M4UString_notes": "css-selector", // Примітки основні
-        "M4UMigrationConvertatin": "css-selector" // БП Конвертація/Міграція
+    
+        "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
+
     },
     contactFields: {
         "FullName": "css-selector", // Name of a contact
