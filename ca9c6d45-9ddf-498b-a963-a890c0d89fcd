@@ -1,0 +1,53 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://webtracking-v01.bpmonline.com/JS/track-cookies.js"></script>
+<script src="https://webtracking-v01.bpmonline.com/JS/create-object.js"></script>
+<script>
+
+/**
+* Замініть вираз в лапках "css-selector" в коді нижче значенням селектора елемента на Вашій лендінговій сторінці.
+* Ви можете використати #id або будь-який інший CSS селектор, який буде точно визначати поле вводу на Вашій лендінговій сторінці.
+* Приклад: "Email": "#MyEmailField".
+* Если Ваша лендінгова сторінка не містить одного або декількох полів із наведених нижче – залиште строку без змін або видаліть повністю.
+*/
+var config = {
+    fields: {
+        "Name": "css-selector", // Ім'я відвідувача, який заповнив форму
+        "MobilePhone": "css-selector", // Телефон відвідувача
+        "Commentary": "css-selector", // Примітка
+        "M4UutmTerm": "css-selector", // utmTerm
+        "M4UutmSource": "css-selector", // utmSource
+        "M4UutmMedium": "css-selector", // utmMedium
+        "M4UutmContent": "css-selector", // utmContent
+        "M4UutmCampaign": "css-selector", // utmCampaign
+        "M4UgoogleClientId": "css-selector", // googleClientId
+        "M4UtrunkSrcId": "css-selector", // trunkSrcId
+        "M4Ugclid": "css-selector", // gclid
+        "M4Uyclid": "css-selector", // yclid
+        "M4UYmUid": "css-selector", // _ym_uid
+    },
+    contactFields: {
+        "FullName": "css-selector", // Name of a contact
+        "Phone": "css-selector", // Contact's mobile phone
+        "Email": "css-selector" // Contact's email
+    },
+    customFields: {},
+    landingId: "ca9c6d45-9ddf-498b-a963-a890c0d89fcd",
+    serviceUrl: "https://dev-intergalbud.creatio.com/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
+    redirectUrl: ""
+};
+/**
+* Функція нижче створює об'єкт із введених даних.
+* Прив'яжіть виклик цієї функції до події "onSubmit" форми або будь-якому іншому елементу події.
+* Приклад: <form class="mainForm" name="landingForm" onSubmit="createObject(); return false">
+*/
+function createObject() {
+    landing.createObjectFromLanding(config);
+}
+/**
+* Функція нижче ініціює лендинг з параметрів URL.
+*/
+function initLanding() {
+    landing.initLanding(config);
+}
+jQuery(document).ready(initLanding);
+</script>
