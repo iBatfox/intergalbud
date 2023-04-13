@@ -24,6 +24,7 @@ var config = {
         "M4Ugclid": "css-selector", // gclid
         "M4Uyclid": "css-selector", // yclid
         "M4UYmUid": "css-selector", // _ym_uid
+        "M4UApplicationPage": "css-selector", // Сторінка звернення
     },
     contactFields: {
         "FullName": "css-selector", // Name of a contact
